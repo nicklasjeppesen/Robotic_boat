@@ -47,7 +47,7 @@ uint16_t commandEight = 0x15;
 uint16_t commandNine = 0x9;
 
 /*
-* 
+* Inspiration from this video: https://www.youtube.com/watch?v=2clAy4xgylM
 * Variables functions, to stored the function that should be executed, when a button i clicked. 
 */ 
 void (*actionCommandStar)(void); // definere en variable for en functions handling.
