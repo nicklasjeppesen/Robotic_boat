@@ -11,12 +11,12 @@ void ServoSetup() {
 }
 
 void MethodforLeftControl(void) {
-  Serial.println("called command left, godt gået Nicklas version 2.0");
+  Serial.println("called command Left");
    ServoLeft.write(90); 
 }
 
 void MethodforRightControl(void) {
-  Serial.println("called command Right Godt gået Nicklas");
+  Serial.println("called command Right");
   ServoLeft.write(130); // 91-180, where 180 is full speed forward, 0 is full speed backward. 
 }
 
