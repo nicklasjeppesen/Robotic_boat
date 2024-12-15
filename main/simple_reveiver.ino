@@ -1,16 +1,6 @@
 /*
  * SimpleReceiver.cpp
  *
- * Demonstrates receiving NEC IR codes with IRrecv
- *
- *  Copyright (C) 2020-2021  Armin Joachimsmeyer
- *  armin.joachimsmeyer@gmail.com
- *
- *  This file is part of Arduino-IRremote https://github.com/Arduino-IRremote/Arduino-IRremote.
- *
- *  
- * OBS:ONLY up, Down, left, right is actions is supported now. 
- *
  */
 
 #include <Arduino.h>
